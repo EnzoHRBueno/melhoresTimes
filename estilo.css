@@ -1,5 +1,7 @@
-body{
+#body-principal {
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     color: white;
     background-image: url(img/Background.jpeg);
     background-repeat: no-repeat;
@@ -7,3 +9,72 @@ body{
     background-size: 100% 100%;
 }
 
+#body-aluno {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    font-style: italic;
+    display: flexbox;
+}
+
+.center-list {
+    text-align: center;
+}
+
+.lista {
+    display: inline-block;
+    text-align: left;
+
+}
+
+#img-main {
+    width: auto;
+    height: 450px;
+    display: block;
+    margin: auto;
+
+}
+
+#manchester {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 250px;
+
+}
+
+#varmeiras {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 300px;
+}
+
+#cabuloso {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 250px;
+}
+
+#enzo {
+    width: auto;
+    height: 200px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.link{
+    color: red;
+}
