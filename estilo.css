@@ -1,4 +1,4 @@
-#body-principal {
+body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -9,13 +9,6 @@
     background-size: 100% 100%;
 }
 
-#body-aluno {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    color: white;
-    background-color: black;
-}
 
 .titulo {
     text-align: center;
@@ -76,4 +69,8 @@
 
 .link{
     color: red;
+}
+.fundo{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
